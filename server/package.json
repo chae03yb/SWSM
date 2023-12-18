@@ -1,4 +1,21 @@
 {
+  "name": "stormhub",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./out/src/main.js",
+    "build": "npx tsc --outDir ./out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chae03yb/stormhub.git"
+  },
+  "author": "chae03yb",
+  "bugs": {
+    "url": "https://github.com/chae03yb/stormhub/issues"
+  },
+  "homepage": "https://github.com/chae03yb/stormhub#readme",
+  "description": "Stormworks vehicle share manager",
   "devDependencies": {
     "@types/express": "^4.17.21",
     "mariadb": "^3.2.2",

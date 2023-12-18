@@ -1,7 +1,7 @@
 import {Connection, createConnection} from "mariadb";
 import config from "../../config.json";
 
-class DatabaseUtil {
+export class DatabaseUtil {
     private readonly connection: Promise<Connection>;
     constructor(host: string, port: number, user: string, password: string) {
         this.connection = createConnection({

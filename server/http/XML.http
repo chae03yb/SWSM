@@ -2,7 +2,7 @@ PUT http://localhost:8720/
 Content-Type: application/json
 
 {
-    "author": "StormHubUser",
+    "author": "StormHub",
     "public": true,
     "vehicle_name": "Empty",
     "description": "a Block",
