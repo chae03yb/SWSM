@@ -7,6 +7,6 @@
     },
     "wserver": {
         "port": 8720,
-        "data_root": "./data"
+        "data_root": "../data"
     }
 }

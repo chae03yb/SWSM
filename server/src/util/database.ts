@@ -8,7 +8,8 @@ export class DatabaseUtil {
             host: config.database.host,
             port: config.database.port,
             user: config.database.user,
-            password: config.database.pass
+            password: config.database.pass,
+            database: "StormHub"
         });
     }
 

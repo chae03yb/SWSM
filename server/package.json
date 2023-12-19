@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "server.js",
   "scripts": {
-    "start": "node ./out/src/main.js",
+    "start": "npx tsc --outDir ./out & node ./out/src/main.js",
     "build": "npx tsc --outDir ./out"
   },
   "repository": {

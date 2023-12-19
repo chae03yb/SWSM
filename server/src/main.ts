@@ -9,6 +9,8 @@ import * as vehicle_router from "./router/vehicle";
 
 const app = express();
 
+app.use(express.json())
+
 app.use("/auth", auth_router.default);
 app.use("/mcu", mcu_router.default);
 app.use("/vehicle", vehicle_router.default);
